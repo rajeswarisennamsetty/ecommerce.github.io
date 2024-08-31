@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    font-family: sans-serif;
+    background-color:paleturquoise;
+}
+.nav-bar{
+    display: flex;
+    background-color: rgb(31, 169, 228);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position:fixed;
+    width: 100%;
+    top:0;
+}
+.nav-bar:hover{
+    background-color: rgb(41, 146, 139);
+}
+.logo img{
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.search-box{
+    display: flex;
+    flex: 1;
+    margin: 0px 20px;
+}
+.search-box input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.search-box button{
+    background-color: lightpink;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    color:darkblue;
+    font-weight: 500;
+    cursor: pointer;
+}
+.search-box button:hover{
+    background-color: lightblue;
+
+}
+.nav-links a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color:hotpink;
+}
+.nav-icons a{
+    margin: 20px;
+}
+.nav-icons img{
+    width: 50px;
+    height: 50px;
+    filter:sepia(100%);
+}
+.heroine-section img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.heroine-section{
+    padding-top: 135px;
+}
+.footer{
+    background-color: rgb(199, 213, 237);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
+.footer-links{
+    margin: 20px;
+}
+.footer-links h4{
+    margin-top: 0;
+}
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li{
+    margin-bottom: 10px;
+
+}
+.footer-links a{
+    text-decoration: none;
+    color: teal;
+}
+.footer-copyright{
+    text-align: center;
+    font-size: 14px ;
+    color:rgb(244, 24, 156);
+}

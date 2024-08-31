@@ -1,0 +1,29 @@
+.heading{
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+    margin-top: 20px;
+}
+.product{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 40px;
+}
+.product-card{
+    border-radius: 30px;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+.product-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.product-info{
+    background-color: rgb(30, 116, 207);
+    padding: 15px;
+    flex-grow: 1;
+}
